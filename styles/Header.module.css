@@ -1,4 +1,11 @@
 .header {
     height: 40vw;
     width: 100vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.name{
+    color: white;
+    font-size: 6vw;
+    text-align: center;
 }
