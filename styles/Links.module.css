@@ -1,0 +1,96 @@
+.linksSection {
+    padding: 3vw;
+    background-color: var(--two);
+}
+
+.sectionHeader {
+    display: flex;
+    height: 10vw;
+}
+
+.headerImg {
+    height: 7vw;
+    width: 7vw;
+    align-self: center;
+    justify-self: center;
+}
+
+.headerTitle {
+    font-size: 3vw;
+    color: black;
+    align-self: center;
+    justify-self: center;
+    margin-left: 1vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.linksList {
+    display: grid;
+    margin: auto;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.linkCard {
+    background-color: var(--one);
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 13vw;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.cardImg {
+    height: 8vw;
+    width: 8vw;
+    margin-top: 1vw;
+    align-self: center;
+    animation: spin 5s infinite;
+}
+
+.cardName {
+    text-align: center;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.35vw;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(-15deg);
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .linksList {
+        grid-template-columns: 1fr 1fr;
+    }
+    .linkCard {
+        background-color: var(--one);
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+        height: 20vw;
+        margin: 3vw;
+    }
+    .cardImg {
+        height: 12vw;
+        width: 12vw;
+        margin-top: 2vw;
+        align-self: center;
+        animation: spin 5s infinite;
+    }
+    .cardName {
+        text-align: center;
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 1.5vw;
+    }
+}

@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 import Nav from '../components/Nav'
 import Header from '../components/Header'
+import Links from '../components/Links'
 
 export default function Home() {
   return (
@@ -23,7 +24,9 @@ export default function Home() {
 
       <Nav />
       <Header />
+      <Links />
 
+      
     </div>
   )
 }
