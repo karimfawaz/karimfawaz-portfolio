@@ -6,6 +6,8 @@
 .sectionHeader {
     display: flex;
     height: 10vw;
+    margin-bottom: 3vw;
+
 }
 
 .headerImg {
