@@ -1,13 +1,11 @@
 .linksSection {
     padding: 3vw;
-    background-color: var(--two);
 }
 
 .sectionHeader {
     display: flex;
     height: 10vw;
     margin-bottom: 3vw;
-
 }
 
 .headerImg {
@@ -19,7 +17,7 @@
 
 .headerTitle {
     font-size: 3vw;
-    color: black;
+    color: white;
     align-self: center;
     justify-self: center;
     margin-left: 1vw;
@@ -34,11 +32,10 @@
 }
 
 .linkCard {
-    background-color: var(--one);
     display: flex;
     flex-direction: column;
     width: 15vw;
-    height: 13vw;
+    height: 15vw;
     border-radius: 1vw;
     cursor: pointer;
 }
@@ -48,29 +45,16 @@
     width: 8vw;
     margin-top: 1vw;
     align-self: center;
-    animation: spin 5s infinite;
 }
 
 .cardName {
     text-align: center;
     color: white;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1.35vw;
+font-weight: 100;
+    font-size: 2vw;
 }
 
-@keyframes spin {
-    0% {
-        transform: rotate(-15deg);
-    }
-    50% {
-        transform: rotate(15deg);
-    }
-    100% {
-        transform: rotate(-15deg);
-    }
-}
-
-@media only screen and (max-width:650px) {
+/* @media only screen and (max-width:650px) {
     .linksList {
         grid-template-columns: 1fr 1fr;
     }
@@ -95,4 +79,4 @@
         font-family: 'Press Start 2P', cursive;
         font-size: 1.5vw;
     }
-}
+} */
