@@ -35,3 +35,16 @@ export default function Home() {
     </div>
   )
 }
+
+
+// ➞ Add Introductory lines
+
+// ➞ Add Projects, Blog articles
+
+// ➞ Add Contact me links
+
+// ➞ Add Languages you're proficient
+
+// ➞ Add GitHub Stats, Profile visits etc.
+
+// ➞ Add Twitter Profile followers.
