@@ -13,6 +13,20 @@ html, body {
 
 }
 
+*::-webkit-scrollbar{
+  width: 0.5vw;
+  
+}
+
+*::-webkit-scrollbar-thumb{
+  background: var(--two);
+
+}
+
+*::-webkit-scrollbar-track{
+  background: var(--one);
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -21,3 +35,4 @@ a {
 * {
   box-sizing: border-box;
 }
+

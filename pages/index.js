@@ -6,6 +6,8 @@ import Nav from '../components/Nav'
 import Header from '../components/Header'
 import Links from '../components/Links'
 
+import style from '../styles/Home.module.css'
+
 export default function Home() {
   return (
     <div>
@@ -23,10 +25,13 @@ export default function Home() {
       </Head>
 
       <Nav />
-      <Header />
-      <Links />
+      <main className={style.main}>
+        <Header />
+        <Links />
 
-      
+      </main>
+
+
     </div>
   )
 }

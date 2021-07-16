@@ -26,7 +26,7 @@
 
 .last {
     align-self: center;
-    background-color: var(--one);
+    /* background-color: var(--one); */
     border-bottom: .5vw dashed white;
     border-right: .5vw dashed white;
     z-index: 4;
@@ -58,28 +58,29 @@
 }
 
 .code {
-    top: 10vw;
-    left: 1vw;
+    top: 15vw;
+    left: 10vw;
+    z-index: 1;
 }
 
 .bitcoin {
     top: 22vw;
-    left: 22vw;
+    left: 33vw;
 }
 
 .cloud {
     top: 3vw;
-    right: 35vw;
+    right: 25vw;
 }
 
 .check {
-    right: 15vw;
+    right: 5vw;
     top: 10vw;
 }
 
 .browser {
     top: 26vw;
-    right: 10vw;
+    right: 3vw;
 }
 
 @keyframes scale {
