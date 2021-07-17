@@ -29,6 +29,7 @@
     margin: auto;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    
 }
 
 .linkCard {
@@ -51,7 +52,16 @@
     text-align: center;
     color: white;
     font-size: 2vw;
-    
+}
+
+@media only screen and (min-width:650px) {
+    .linkCard:hover .cardImg {
+        transform: translateY(-1vw);
+        height: 8.75vw;
+        width: 8.75vw;
+        margin-top: 0vw;
+        transition: 600ms ease;
+    }
 }
 
 /* @media only screen and (max-width:650px) {

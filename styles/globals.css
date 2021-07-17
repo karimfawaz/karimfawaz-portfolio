@@ -10,20 +10,17 @@ html, body {
   margin: 0;
   font-family: 'Tahoma', sans-serif;
   letter-spacing: .05vw;
-
 }
 
-*::-webkit-scrollbar{
+*::-webkit-scrollbar {
   width: 0.5vw;
-  
 }
 
-*::-webkit-scrollbar-thumb{
+*::-webkit-scrollbar-thumb {
   background: var(--two);
-
 }
 
-*::-webkit-scrollbar-track{
+*::-webkit-scrollbar-track {
   background: var(--one);
 }
 
@@ -35,4 +32,3 @@ a {
 * {
   box-sizing: border-box;
 }
-

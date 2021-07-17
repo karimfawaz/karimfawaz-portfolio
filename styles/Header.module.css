@@ -26,7 +26,6 @@
 
 .last {
     align-self: center;
-    /* background-color: var(--one); */
     border-bottom: .5vw dashed white;
     border-right: .5vw dashed white;
     z-index: 4;
@@ -59,7 +58,7 @@
 
 .code {
     top: 15vw;
-    left: 10vw;
+    left: 7vw;
     z-index: 1;
 }
 
