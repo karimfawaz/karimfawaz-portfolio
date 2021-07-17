@@ -5,7 +5,7 @@ const Nav = () => {
         <nav className={styles.nav}>
             <ul className={styles.navbarNav}>
                 <li className={styles.logo}>
-                    <a target="_blank" href="docs.google.com/document/d/13_zOmZkl9dbCe95k1qPlEF38IczTEu7tnUK5Wgu3hgQ" className={styles.navLink}>
+                    <a target="_blank" href="https://docs.google.com/document/d/13_zOmZkl9dbCe95k1qPlEF38IczTEu7tnUK5Wgu3hgQ" className={styles.navLink}>
                         <span className={styles.linkText}>
                             Karim Fawaz
                         </span>
