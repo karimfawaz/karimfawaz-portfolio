@@ -19,10 +19,6 @@
     width: 100%;
 }
 
-.navItem:last-child {
-    margin-top: auto;
-}
-
 .navLink {
     display: flex;
     align-items: center;
@@ -98,11 +94,16 @@
         margin-bottom: 3vw;
     }
     .homeSVG {
-        margin-bottom: 8vw;
+        width: 8vw;
+        height: 8vw;
+        margin-bottom: 2vw;
     }
 }
 
 @media only screen and (min-width:650px) {
+    .navItem:last-child {
+        margin-top: auto;
+    }
     .nav {
         top: 0;
         width: 6vw;

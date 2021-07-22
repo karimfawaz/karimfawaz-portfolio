@@ -31,8 +31,6 @@ const Nav = () => {
                         <span className={styles.linkText}>
                             HOME
                         </span>
-
-
                     </a>
                 </li>
 
