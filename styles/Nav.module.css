@@ -79,7 +79,7 @@
     }
     .nav {
         width: 100vw;
-        height: 12vw;
+        height: 11.5vw;
         bottom: 0;
     }
     .navbarNav {
@@ -91,12 +91,11 @@
     .svg {
         width: 7vw;
         height: 7vw;
-        margin-bottom: 3vw;
+        margin-bottom: 1vw;
     }
     .homeSVG {
         width: 8vw;
         height: 8vw;
-        margin-bottom: 2vw;
     }
 }
 
