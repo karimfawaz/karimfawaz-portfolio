@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 import Nav from '../components/Nav'
 import Header from '../components/Header'
+import About from '../components/About'
 import Links from '../components/Links'
 
 import style from '../styles/Home.module.css'
@@ -27,6 +28,7 @@ export default function Home() {
       <Nav />
       <main className={style.main}>
         <Header />
+        <About />
         <Links />
 
       </main>

@@ -1,0 +1,58 @@
+.aboutSection {
+    padding: 3vw;
+}
+
+.sectionHeader {
+    display: flex;
+    height: 10vw;
+    margin-bottom: 3vw;
+}
+
+.headerImg {
+    height: 7vw;
+    width: 7vw;
+    align-self: center;
+    justify-self: center;
+}
+
+.headerTitle {
+    font-size: 3vw;
+    color: white;
+    align-self: center;
+    justify-self: center;
+    margin-left: 1vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText {
+    color: white;
+    width: 50vw;
+    font-size: 1.5vw;
+}
+
+.aboutImg {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:650px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    .aboutText {
+        width: 100%;
+        font-size: 2.5vw;
+    }
+    .aboutImg {
+        margin-bottom: 3vw;
+        height: 25vw;
+        width: 25vw;
+    }
+}
