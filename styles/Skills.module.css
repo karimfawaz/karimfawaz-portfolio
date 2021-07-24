@@ -24,3 +24,58 @@
     margin-left: 1vw;
     font-family: 'Press Start 2P', cursive;
 }
+
+.skillList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+    place-items: center;
+}
+
+.skillcard {
+    height: 20vw;
+    width: 20vw;
+    position: relative;
+    background-color: white;
+    border-radius: 2vw;
+}
+
+.cardHeader {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+.skillcard:hover .cardDetails {
+    visibility: visible;
+    top: 0;
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.cardHeaderimg {
+    height: 10vw;
+    width: 10vw;
+}
+
+.cardHeadertitle {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.cardDetails {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    visibility: none;
+    transition: 1s ease;
+    top: 2vw;
+    opacity: 0;
+    background-color: var(--two);
+    border-radius: 2vw;
+    padding: 2vw;
+}

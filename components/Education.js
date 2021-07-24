@@ -11,11 +11,14 @@ const Education = () => {
             <table className={styles.table}>
 
                 <tr>
+                <td> <img className={styles.eduImg} src='/images/cpf.png'/></td>
+
                     <td>2005 - 2020</td>
                     <td>College Protestant Francais de Beyrouth</td>
                     <td>French Baccalaureate</td>
                 </tr>
                 <tr>
+                    <td> <img className={styles.eduImg} src='/images/qmul.png'/></td>
                     <td>2020 - 2023</td>
                     <td>Queen Mary, University of London</td>
                     <td>Computer Science - Bachelor of Sciences</td>

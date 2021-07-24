@@ -11,7 +11,7 @@ const Header = () => {
             <img className={` ${styles.bitcoin}  ${styles.smallIcon} ${styles.spin}`} src='/images/bitcoin.png' />
             <img className={` ${styles.cloud}  ${styles.smallIcon} ${styles.scale}`} src='/images/cloud.png' />
             <img className={` ${styles.check}  ${styles.smallIcon} ${styles.spin}`} src='/images/check.png' />
-            <img className={` ${styles.browser}  ${styles.smallIcon} ${styles.scale}`} src='/images/browser.png' />
+            <img className={` ${styles.browser}  ${styles.smallIcon} ${styles.scale}`} src='/images/chart.png' />
 
         </header>
     )
