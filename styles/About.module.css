@@ -34,12 +34,17 @@
     color: white;
     width: 50vw;
     font-size: 1.5vw;
+    padding: 1vw;
+    border-bottom: .75vw dashed white;
+    border-right: .75vw dashed white;
+
 }
 
 .aboutImg {
     height: 20vw;
     width: 20vw;
     border-radius: 50%;
+    box-shadow: .5vw .5vw 1vw white;
 }
 
 @media only screen and (max-width:650px) {

@@ -1,0 +1,26 @@
+.skillSection {
+    padding: 3vw;
+}
+
+.sectionHeader {
+    display: flex;
+    height: 10vw;
+    margin-bottom: 3vw;
+}
+
+.headerImg {
+    height: 7vw;
+    width: 7vw;
+    transform: rotate(90deg);
+    align-self: center;
+    justify-self: center;
+}
+
+.headerTitle {
+    font-size: 3vw;
+    color: white;
+    align-self: center;
+    justify-self: center;
+    margin-left: 1vw;
+    font-family: 'Press Start 2P', cursive;
+}
