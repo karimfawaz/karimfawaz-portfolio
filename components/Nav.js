@@ -16,8 +16,9 @@ const Nav = () => {
                 </li>
                 <li className={styles.navItem}>
                     <a target="_blank" href="https://docs.google.com/document/d/13_zOmZkl9dbCe95k1qPlEF38IczTEu7tnUK5Wgu3hgQ" className={styles.navLink}>
-
-                        <object className={styles.svg} data="/svgs/cv.svg" />
+                        <a target="_blank" href="https://docs.google.com/document/d/13_zOmZkl9dbCe95k1qPlEF38IczTEu7tnUK5Wgu3hgQ">
+                            <object className={styles.svg} data="/svgs/cv.svg" />
+                        </a>
                         <span className={styles.linkText}>
                             CV
                         </span>
@@ -27,7 +28,9 @@ const Nav = () => {
                 </li>
                 <li className={styles.navItem}>
                     <a href="/" className={styles.navLink}>
-                        <object className={`${styles.svg} + ${styles.homeSVG} `} data="/svgs/home.svg" />
+                        <a href="/">
+                            <object className={`${styles.svg} + ${styles.homeSVG} `} data="/svgs/home.svg" />
+                        </a>
                         <span className={styles.linkText}>
                             HOME
                         </span>
