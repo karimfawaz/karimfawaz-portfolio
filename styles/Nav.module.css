@@ -15,7 +15,9 @@
     height: 100%;
 }
 
-
+.navItem {
+    width: 100%;
+}
 
 .navLink {
     display: flex;
@@ -80,12 +82,8 @@
         height: 11.5vw;
         bottom: 0;
     }
-    .navItem {
-        width: 5vw;
-    }
     .navbarNav {
         flex-direction: row;
-        justify-content: space-evenly;
     }
     .navLink {
         justify-content: center;
@@ -102,9 +100,6 @@
 }
 
 @media only screen and (min-width:650px) {
-    .navItem {
-        width: 100%;
-    }
     .navItem:last-child {
         margin-top: auto;
     }
