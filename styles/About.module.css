@@ -4,7 +4,6 @@
 
 .sectionHeader {
     display: flex;
-    height: 10vw;
     margin-bottom: 3vw;
 }
 
@@ -37,7 +36,6 @@
     padding: 1vw;
     border-bottom: .75vw dashed white;
     border-right: .75vw dashed white;
-
 }
 
 .aboutImg {
@@ -48,16 +46,28 @@
 }
 
 @media only screen and (max-width:650px) {
+    .sectionHeader {
+        margin-bottom: 5vw;
+    }
+    .headerImg {
+        height: 10vw;
+        width: 10vw;
+    }
+    .headerTitle {
+        font-size: 5vw;
+        margin-left: 2vw;
+    }
     .container {
         flex-direction: column-reverse;
     }
     .aboutText {
         width: 100%;
-        font-size: 2.5vw;
+        font-size: 3vw;
+        padding: 2vw;
     }
     .aboutImg {
         margin-bottom: 3vw;
-        height: 25vw;
-        width: 25vw;
+        height: 35vw;
+        width: 35vw;
     }
 }

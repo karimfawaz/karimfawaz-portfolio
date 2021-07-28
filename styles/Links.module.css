@@ -29,7 +29,6 @@
     margin: auto;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    
 }
 
 .linkCard {
@@ -64,29 +63,31 @@
     }
 }
 
-/* @media only screen and (max-width:650px) {
+@media only screen and (max-width:650px) {
+    .sectionHeader {
+        margin-bottom: 5vw;
+    }
+    .headerImg {
+        height: 10vw;
+        width: 10vw;
+    }
+    .headerTitle {
+        font-size: 5vw;
+        margin-left: 2vw;
+    }
     .linksList {
         grid-template-columns: 1fr 1fr;
     }
     .linkCard {
-        background-color: var(--one);
-        display: flex;
-        flex-direction: column;
         width: 25vw;
-        height: 20vw;
-        margin: 3vw;
+        height: 25vw;
     }
     .cardImg {
         height: 12vw;
         width: 12vw;
         margin-top: 2vw;
-        align-self: center;
-        animation: spin 5s infinite;
     }
     .cardName {
-        text-align: center;
-        color: white;
-        font-family: 'Press Start 2P', cursive;
-        font-size: 1.5vw;
+        font-size: 2.5vw;
     }
-} */
+}

@@ -35,13 +35,36 @@
     font-size: 1.35vw;
 }
 
-.eduImg{
+.eduImg {
     height: 7vw;
     width: 7vw;
     border-radius: 50%;
 }
+
 @media only screen and (max-width:650px) {
+    .sectionHeader {
+        margin-bottom: 5vw;
+    }
+    .headerImg {
+        height: 13vw;
+        width: 10vw;
+    }
+    .headerTitle {
+        font-size: 5vw;
+        margin-left: 2vw;
+    }
     .table {
-        font-size: 1.75vw;
+        font-size: 3.25vw;
+        border: none;
+        text-align: center;
+        border-spacing: 3vw 7vw;
+    }
+    .eduImg {
+        height: 15vw;
+        width: 15vw;
+       
+    }
+    .span{
+        display: none;
     }
 }
