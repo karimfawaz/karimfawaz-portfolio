@@ -15,7 +15,7 @@ const Nav = () => {
 
                 </li>
                 <li className={styles.navItem}>
-                    <a target="_blank" href="https://docs.google.com/document/d/13_zOmZkl9dbCe95k1qPlEF38IczTEu7tnUK5Wgu3hgQ" className={styles.navLink}>
+                    <a target="_blank" href="https://docs.google.com/document/d/11-jbGjA2JkAblzrHfIRRPsfoy00gsVhSiIL82ca1ktM/edit?usp=sharing" className={styles.navLink}>
 
                         <object className={styles.svg} data="/svgs/cv.svg" />
                         <span className={styles.linkText}>
