@@ -1,0 +1,130 @@
+.languagesSection {
+    padding: 3vw;
+}
+
+.sectionHeader {
+    display: flex;
+    height: 10vw;
+    margin-bottom: 3vw;
+}
+
+.headerImg {
+    height: 7vw;
+    width: 7vw;
+    align-self: center;
+    justify-self: center;
+}
+
+.headerTitle {
+    font-size: 3vw;
+    color: white;
+    align-self: center;
+    justify-self: center;
+    margin-left: 1vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.languagesList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5vw;
+    place-items: center;
+}
+
+.languagescard {
+    height: 20vw;
+    width: 20vw;
+    position: relative;
+    background-color: white;
+    border-radius: 2vw;
+}
+
+.cardHeader {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+.languagescard:hover .cardDetails {
+    visibility: visible;
+    top: 0;
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.cardHeaderimg {
+    height: 10vw;
+    width: 10vw;
+}
+
+.cardHeadertitle {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.cardDetails {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    visibility: none;
+    transition: 1s ease;
+    top: 2vw;
+    opacity: 0;
+    background-color: var(--two);
+    border-radius: 2vw;
+    padding: 2vw;
+}
+
+@media only screen and (max-width:650px) {
+    .sectionHeader {
+        margin-bottom: 5vw;
+    }
+    .headerImg {
+        height: 10vw;
+        width: 10vw;
+    }
+    .headerTitle {
+        font-size: 5vw;
+        margin-left: 2vw;
+    }
+    .languagesList {
+        grid-template-columns: 1fr;
+    }
+    .languagescard {
+        height: 40vw;
+        width: 40vw;
+    }
+    .cardHeader {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vw;
+    }
+    .cardHeaderimg {
+        height: 20vw;
+        width: 20vw;
+    }
+    .cardHeadertitle {
+        font-size: 3vw;
+        text-align: center;
+    }
+    .cardDetails {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        visibility: none;
+        transition: 1s ease;
+        top: 2vw;
+        opacity: 0;
+        background-color: var(--two);
+        border-radius: 2vw;
+        padding: 2vw;
+    }
+}

@@ -7,9 +7,12 @@ import Header from '../components/Header'
 import About from '../components/About'
 import Education from '../components/Education'
 import Skills from '../components/Skills'
+import Experience from '../components/Experience'
+import Languages from '../components/Languages'
 import Links from '../components/Links'
 
 import style from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
@@ -33,6 +36,8 @@ export default function Home() {
         <About />
         <Education />
         <Skills />
+        <Experience />
+        <Languages />
         <Links />
 
       </main>
