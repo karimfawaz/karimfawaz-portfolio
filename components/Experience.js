@@ -4,7 +4,7 @@ const Experience = () => {
     return (
         <section className={styles.expSection}>
             <div className={styles.sectionHeader}>
-                <img className={styles.headerImg} src='/images/rocket.png' />
+                <img className={styles.headerImg} src='/images/network.png' />
                 <h3 className={styles.headerTitle}>Experience</h3>
             </div>
 
