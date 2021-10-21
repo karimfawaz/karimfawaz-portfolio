@@ -10,8 +10,7 @@ const About = () => {
             </div>
             <div className={styles.container}>
                 <article className={styles.aboutText}>
-                    Hey there! I’m Karim Fawaz. I am a second year student at Queen Mary, University of London studying Computer Science BSc. I am an ambitious software developer and my dream is to start my own technology firm, Brain 2.0. Finding solutions really motivates me and I always try to improve my problem solving skills to one day be able to help society at large.
-                </article>
+                Software developer with a constant desire to learn new skills and technologies. Self-taught in 18 languages, libraries, and interfaces, I am goal driven, inquisitive, as demonstrated by my regular participation in coding boot camps and competitions. Motivated team player, worked with different teams and companies during my 5 years of experience in software development while applying the foundations of agile methodology project management. Lead several research coursework group projects during my 1st year in Computer Science. Strong analytical and problem-solving skills, as shown by my election to participate in entrepreneurial competitions and apprenticeships, and keen to tackle new challenges, manifested by my projects in different fields like commerce as I operated my own store which became a profitable business in 6 months.</article>
                 <img src='/me.jpg' className={styles.aboutImg} />
 
             </div>
