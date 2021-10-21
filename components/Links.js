@@ -10,7 +10,7 @@ const Links = () => {
 
             <div className={styles.linksList}>
 
-                <a href='https://www.linkedin.com/in/karim-fawaz-b2003b1a6/' target="_blank">
+                <a href='https://www.linkedin.com/in/karim-fawaz/' target="_blank">
                     <div className={styles.linkCard}>
 
                         <img className={styles.cardImg} src='/images/linkedin.png' />
@@ -21,7 +21,7 @@ const Links = () => {
 
 
 
-                <a href='https://www.instagram.com/kar1mfawaz/' target="_blank">
+                <a href='https://www.instagram.com/karimfawaz_/' target="_blank">
                     <div className={styles.linkCard}>
 
                         <img className={styles.cardImg} src='/images/instagram.png' />
