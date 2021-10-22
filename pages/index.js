@@ -19,7 +19,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Karim Fawaz</title>
-        <meta name="description" content="Entrepeneur in the Making" />
+        <meta name="description" content="Entrepreneur in the Making" />
         <link rel="icon" href="/favicon.ico" />
 
 
