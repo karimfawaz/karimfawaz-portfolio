@@ -70,7 +70,6 @@
     font-size: 1.2vw;
     margin-top: -1vw;
     text-align: center;
-    
 }
 
 .cardHeaderDate {
@@ -80,8 +79,6 @@
 
 .cardDetails {
     position: absolute;
-    height: 100%;
-    width: 100%;
     visibility: none;
     transition: 1s ease;
     top: 2vw;
@@ -90,9 +87,10 @@
     border-radius: 2vw;
     padding: 2vw;
     font-size: .9vw;
+    display: flex;
     justify-content: center;
+    align-items: center;
     height: 100%;
-    align-self: center;
 }
 
 @media only screen and (max-width:650px) {
@@ -144,6 +142,6 @@
         background-color: var(--two);
         border-radius: 2vw;
         padding: 2vw;
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 }

@@ -78,7 +78,11 @@
     background-color: var(--two);
     border-radius: 2vw;
     padding: 2vw;
-    font-size: 1vw;
+    font-size: .9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 @media only screen and (max-width:650px) {

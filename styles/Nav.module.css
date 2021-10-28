@@ -23,3 +23,21 @@
     color: var(--one);
     font-size: 1.65vw;
 }
+
+
+@media only screen and (max-width:650px) {
+    .nav {
+        height: 8vw;
+        border-radius: 1.7vw;
+        width: 98%;
+        top: 0.2vw;
+      
+    }
+
+    
+    .navItem{
+       
+        font-size: 2.5vw;
+    }
+
+}

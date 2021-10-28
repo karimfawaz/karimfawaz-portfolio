@@ -3,3 +3,10 @@
     text-align: center;
     font-size: 1.5vw;
 }
+
+@media only screen and (max-width:650px) {
+    .notice{
+        font-size: 3.5vw;
+    }
+    
+}

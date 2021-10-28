@@ -5,10 +5,10 @@ const Nav = () => {
         <div className={styles.nav}>
             <div className={styles.navItems}>
 
-                <div className={styles.navItem}>CV</div>
-                <div className={styles.navItem}>BLOG</div>
+                <div className={styles.navItem}>CV (COMING SOON)</div>
+                <div className={styles.navItem}>BLOG (COMING SOON)</div>
 
-                <div className={styles.navItem}>PROJECTS</div>
+                <div className={styles.navItem}>PROJECTS (COMING SOON)</div>
                 
             </div>
         </div>
