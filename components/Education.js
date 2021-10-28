@@ -15,13 +15,13 @@ const Education = () => {
 
                     <td>2005 <span className={styles.span}>-</span> 2020</td>
                     <td>College Protestant Francais de Beyrouth</td>
-                    <td>French Baccalaureate</td>
+                    <td>French Baccalaureate | Scientific Path, Specialised in Maths</td>
                 </tr>
                 <tr>
                     <td> <img className={styles.eduImg} src='/images/qmul.png'/></td>
                     <td>2020 <span className={styles.span}>-</span> 2023</td>
                     <td>Queen Mary <span className={styles.span}>,</span> University of London</td>
-                    <td>Computer Science <span className={styles.span}>-</span> Bachelor of Sciences</td>
+                    <td>Computer Science <span className={styles.span}>-</span> Bachelor of Science | Grade: A (87%)</td>
                 </tr>
 
             </table>
