@@ -1,123 +1,25 @@
 .nav {
-    position: fixed;
+    height: 4vw;
     background-color: var(--two);
-    z-index: 5;
-    transition: 200ms ease;
+    border-radius: 1.7vw;
+    display: block;
+    margin: auto;
+    width: 98%;
+    position: -webkit-sticky;
+    position: sticky;
+    overflow-x: visible;
+    top: 0.2vw;
+    z-index: 10000000;
 }
 
-.navbarNav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.navItems {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     height: 100%;
 }
 
-.navItem {
-    width: 100%;
-}
-
-.navLink {
-    display: flex;
-    align-items: center;
-    height: 5vw;
-    text-decoration: none;
-    filter: grayscale(100%) opacity(0.7);
-    transition: 600ms;
-}
-
-.navLink:hover {
-    filter: grayscale(0%) opacity(1);
-}
-
-.linkText {
-    display: none;
-    margin-left: 1rem;
-    font-weight: bold;
-    font-size: 1.5vw;
-}
-
-.svg {
-    width: 3.5vw;
-    height: 3.5vw;
-    margin: 0 1.5vw;
-}
-
-.logo {
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 1vw;
-    text-align: center;
+.navItem{
     color: var(--one);
-    font-size: 1.5vw;
-    letter-spacing: 0.3vw;
-    width: 100%;
-}
-
-.logoSVG {
-    transform: rotate(0deg);
-    transition: transform 600ms;
-}
-
-.logoText {
-    display: inline;
-    position: absolute;
-    left: -999px;
-    transition: 600ms;
-    font-size: 2vw;
-}
-
-.nav:hover .logoSVG {
-    transform: rotate(-180deg);
-}
-
-@media only screen and (max-width:650px) {
-    .logo {
-        display: none;
-    }
-    .nav {
-        width: 100vw;
-        height: 11.5vw;
-        bottom: 0;
-    }
-    .navbarNav {
-        flex-direction: row;
-    }
-    .navLink {
-        justify-content: center;
-    }
-    .svg {
-        width: 7vw;
-        height: 7vw;
-        margin-bottom: 1vw;
-    }
-    .homeSVG {
-        width: 8vw;
-        height: 8vw;
-    }
-}
-
-@media only screen and (min-width:650px) {
-    .navItem:last-child {
-        margin-top: auto;
-    }
-    .nav {
-        top: 0;
-        width: 6vw;
-        height: 100vh;
-    }
-    .nav:hover {
-        width: 16.2vw;
-    }
-    .nav:hover .linkText {
-        display: inline;
-    }
-    .nav:hover .logoSVG {
-        margin-left: 11vw;
-    }
-    .nav:hover .logoText {
-        left: 0;
-    }
+    font-size: 1.65vw;
 }

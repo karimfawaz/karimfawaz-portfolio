@@ -1,27 +1,37 @@
 :root {
   --one: #201E1F;
-  --two: #87F1FF;
+  --two: #BBE5ED;
 }
 
 html, body {
   background-color: var(--one);
-  overflow-x: hidden;
   padding: 0;
   margin: 0;
   font-family: 'Tahoma', sans-serif;
   letter-spacing: .05vw;
+  
 }
 
 *::-webkit-scrollbar {
   width: 0.5vw;
+  overflow: overlay;
+  height: 0;
+  
+  
 }
 
 *::-webkit-scrollbar-thumb {
   background: var(--two);
+  border-radius: 2rem;
+
 }
 
 *::-webkit-scrollbar-track {
   background: var(--one);
+  position: absolute;
+  right: -3rem;
+  top: -50rem;
+  background: transparent;
 }
 
 a {

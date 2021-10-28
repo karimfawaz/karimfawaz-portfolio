@@ -1,11 +1,5 @@
-.main{
-    margin-left: 7vw;
-}
-
-@media only screen and (max-width:650px) {
-
- .main{
-     margin: 0;
-     margin-bottom: 11.5vw;
- }
+.notice{
+    color: var(--two);
+    text-align: center;
+    font-size: 1.5vw;
 }

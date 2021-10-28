@@ -1,41 +1,17 @@
-import styles from '../styles/Nav.module.css'
+import styles from "../styles/Nav.module.css"
 
 const Nav = () => {
     return (
-        <nav className={styles.nav}>
-            <ul className={styles.navbarNav}>
-                <li className={styles.logo}>
-                    <a href="/" className={styles.navLink}>
-                        <span className={`${styles.linkText} + ${styles.logoText}`}>
-                            Karim
-                        </span>
+        <div className={styles.nav}>
+            <div className={styles.navItems}>
 
-                        <object className={` ${styles.logoSVG}  +  ${styles.svg}`} data="/svgs/arrows.svg" />
-                    </a>
+                <div className={styles.navItem}>CV</div>
+                <div className={styles.navItem}>BLOG</div>
 
-                </li>
-                <li className={styles.navItem}>
-                    <a target="_blank" href="https://docs.google.com/document/d/11-jbGjA2JkAblzrHfIRRPsfoy00gsVhSiIL82ca1ktM/edit?usp=sharing" className={styles.navLink}>
-
-                        <object className={styles.svg} data="/svgs/cv.svg" />
-                        <span className={styles.linkText}>
-                            CV
-                        </span>
-
-
-                    </a>
-                </li>
-                <li className={styles.navItem}>
-                    <a href="/" className={styles.navLink}>
-                        <object className={`${styles.svg} + ${styles.homeSVG} `} data="/svgs/home.svg" />
-                        <span className={styles.linkText}>
-                            HOME
-                        </span>
-                    </a>
-                </li>
-
-            </ul>
-        </nav>
+                <div className={styles.navItem}>PROJECTS</div>
+                
+            </div>
+        </div>
     )
 }
 

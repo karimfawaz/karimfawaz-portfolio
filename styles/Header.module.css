@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 .name {
@@ -58,13 +59,13 @@
 
 .code {
     top: 15vw;
-    left: 7vw;
+    left: 5vw;
     z-index: 1;
 }
 
 .bitcoin {
     top: 22vw;
-    left: 33vw;
+    left: 25vw;
 }
 
 .cloud {
