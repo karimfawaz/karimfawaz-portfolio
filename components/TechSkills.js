@@ -83,6 +83,7 @@ const TechSkills = () => {
                     <img className={styles.gridItemImg} src='/images/firebase.jpg'/>
                     <h2 className={styles.gridItemTitle}>Firebase</h2>
                 </div>
+                
                 <div className={styles.gridItem}>
                     <img className={styles.gridItemImg} src='/images/mips.png'/>
                     <h2 className={styles.gridItemTitle}>MIPS Assembly</h2>
