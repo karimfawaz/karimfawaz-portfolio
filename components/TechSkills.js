@@ -49,7 +49,7 @@ const TechSkills = () => {
                 </div>
                 <div className={styles.gridItem}>
                     <img className={styles.gridItemImg} src='/images/unity.png'/>
-                    <h2 className={styles.gridItemTitle}>Unit2D</h2>
+                    <h2 className={styles.gridItemTitle}>Unity2D</h2>
                 </div>
                 <div className={styles.gridItem}>
                     <img className={styles.gridItemImg} src='/images/css.png'/>
