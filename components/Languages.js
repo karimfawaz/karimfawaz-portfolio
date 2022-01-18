@@ -11,17 +11,17 @@ const Languages = () => {
 
             <div className={styles.language}>
                 <img className={styles.languageImg} src='/images/france.png' />
-                <h3 className={styles.languageTitle}>French (Native)</h3>
+                <h3 className={styles.languageTitle}>French</h3>
             </div>
             
             <div className={styles.language}>
                 <img className={styles.languageImg} src='/images/uk.png' />
-                <h3 className={styles.languageTitle}>English (Native)</h3>
+                <h3 className={styles.languageTitle}>English</h3>
             </div>
             
             <div className={styles.language}>
                 <img className={styles.languageImg} src='/images/arabic.png' />
-                <h3 className={styles.languageTitle}>Arabic (Native)</h3>
+                <h3 className={styles.languageTitle}>Arabic</h3>
             </div>
             </div>
         </section>
