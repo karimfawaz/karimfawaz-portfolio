@@ -6,17 +6,20 @@ const Header = () => {
         <header className={styles.header}>
             <table className={styles.table}>
                 <tr>
-                    <td colSpan="2">
-                        <h1 className={`${styles.name} ${styles.first}`}>KARIM</h1>
+                <td rowSpan="2" >
+                        <img className={`  ${styles.smallIcon} ${styles.scale}`} src='/images/code.png' />
                     </td>
-                    <td>
+                    
+                    <td className={styles.flextd}>
+                        <h1 className={`${styles.name} ${styles.first}`}>KARIM</h1>
                         <img className={`  ${styles.smallIcon} ${styles.scale}`} src='/images/cloud.png' />
 
                     </td>
+                    
                     <td>
 
                     </td>
-                    <td className={styles.alignCenter}>
+                    <td className={styles.alignCenter} rowSpan="2" >
                         <img className={`  ${styles.smallIcon} ${styles.spin}`} src='/images/check.png' />
 
 
@@ -26,15 +29,13 @@ const Header = () => {
 
 
                 <tr>
-                    <td >
-                        <img className={`  ${styles.smallIcon} ${styles.scale}`} src='/images/code.png' />
-                    </td>
+                    
 
-                    <td className={styles.alignEnd}>
-                        <img className={`  ${styles.smallIcon} ${styles.spin}`} src='/images/bitcoin.png' />
-                    </td>
+                   
 
-                    <td >
+                    <td className={styles.flextd}>
+                    <img className={`  ${styles.smallIcon} ${styles.spin}`} src='/images/bitcoin.png' />
+
                         <h1 className={`${styles.name} ${styles.last}`}>FAWAZ</h1>
                     </td>
 

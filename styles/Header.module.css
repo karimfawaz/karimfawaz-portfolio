@@ -11,20 +11,28 @@
 
 .table{
     width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+.flextd{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .name {
     color: white;
     
     font-size: 7vw;
-    margin-top: 0vw;
-    margin-bottom: 0vw;
+    margin: 0vw;
+    /* margin-bottom: 0vw; */
     /* text-align: center; */
     
 }
 
 .first{
     text-align: center;
+    
 }
 .last {
     text-align: end;
