@@ -8,7 +8,7 @@ const Education = () => {
                 <h3 className={styles.headerTitle}>Education</h3>
             </div>
 
-            <table className={styles.table}>
+            {/* <table className={styles.table}>
 
                 <tr>
                 <td> <img className={styles.eduImg} src='/images/cpf.png'/></td>
@@ -24,7 +24,35 @@ const Education = () => {
                     <td>Computer Science <span className={styles.span}>-</span> Bachelor of Science | Grade: A (87%)</td>
                 </tr>
 
-            </table>
+            </table> */}
+            <div className={styles.eduDiv}>
+                <div className={styles.eduCard}>
+                    <img className={styles.eduImg} src='/images/cpf.png' />
+                    <div className={styles.eduDetails}>
+                        <h3 className={styles.eduTitle}>
+                            College Protestant Francais de Beyrouth
+                        </h3>
+                        <p className={styles.eduText}>
+                        French Baccalaureate - Scientific Path, Emphasis in Mathematics
+                        </p>
+                    </div>
+
+                </div>
+                <div className={styles.eduCard}>
+                    <img className={styles.eduImg} src='/images/qmul.png' />
+                    <div className={styles.eduDetails}>
+                        <h3 className={styles.eduTitle}>
+                            College Protestant Francais de Beyrouth
+                        </h3>
+                        <p className={styles.eduText}>
+                        French Baccalaureate - Scientific Path, Emphasis in Mathematics
+                        </p>
+                    </div>
+
+                </div>
+                
+            </div>
+
         </section>
     )
 }

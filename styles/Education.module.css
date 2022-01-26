@@ -1,5 +1,6 @@
 .educationSection {
     padding: 3vw;
+    height: 42.5vw;
 }
 
 .sectionHeader {
@@ -24,47 +25,97 @@
     font-family: 'Press Start 2P', cursive;
 }
 
-.table {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    border-collapse: separate;
-    border-spacing: 3vw 1.5vw;
-    border: .75vw dashed white;
-    font-size: 1.25vw;
+
+
+.eduDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: auto;
 }
+
+
+.eduCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    border-radius: 2vw;
+    
+
+
+}
+
 
 .eduImg {
-    height: 7vw;
-    width: 7vw;
+    height: 10vw;
+    width: 10vw;
     border-radius: 50%;
+    align-self: center;
+
+
 }
 
+.eduDetails {
+    display: none;
+    visibility: hidden;
+    text-align: center;
+    opacity: 0;
+    	
+	
+}
+.eduCard:hover .eduDetails{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    	
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 1s ease;	
+    
+    
+    opacity: 1;
+    
+}
+
+
+.eduCard:hover{
+    background-color: white;
+    width: 25vw;
+    height: 25vw;
+	
+}
+
+.eduCard:hover .eduImg{
+    	
+	
+}
 @media only screen and (max-width:650px) {
     .sectionHeader {
         margin-bottom: 5vw;
     }
+
     .headerImg {
         height: 13vw;
         width: 10vw;
     }
+
     .headerTitle {
         font-size: 5vw;
         margin-left: 2vw;
     }
-    .table {
-        font-size: 3.25vw;
-        border: none;
-        text-align: center;
-        border-spacing: 3vw 7vw;
-    }
+
+
     .eduImg {
         height: 15vw;
         width: 15vw;
-       
+
     }
-    .span{
+
+    .span {
         display: none;
     }
 }
