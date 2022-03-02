@@ -1,6 +1,6 @@
 .educationSection {
     padding: 3vw;
-    height: 42.5vw;
+    height: 40vw;
 }
 
 .sectionHeader {
@@ -40,11 +40,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+    padding: .5vw;
     border-radius: 2vw;
     
-
-
+    
+    
+   
 }
 
 
@@ -53,8 +54,6 @@
     width: 10vw;
     border-radius: 50%;
     align-self: center;
-
-
 }
 
 .eduDetails {
@@ -62,36 +61,42 @@
     visibility: hidden;
     text-align: center;
     opacity: 0;
-    	
-	
+    transition: 1s ease;
+
+
 }
-.eduCard:hover .eduDetails{
+
+.eduCard:hover .eduDetails {
     visibility: visible;
     display: flex;
     flex-direction: column;
-    	
-	-moz-transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 1s ease;	
-    
-    
+    transition: 1s ease;
     opacity: 1;
-    
+
 }
 
 
-.eduCard:hover{
+.eduCard:hover {
     background-color: white;
     width: 25vw;
     height: 25vw;
-	
+    transition: 1s ease;
+    opacity: 1;
+    visibility:visible;
+    display: flex;
+
 }
 
-.eduCard:hover .eduImg{
-    	
-	
+.eduCard:hover .eduImg {
+    transition: 1s ease;
+
+}
+.eduTitle{
+    font-size: 1.25vw;
+}
+
+.eduText{
+    font-size: 1vw;
 }
 @media only screen and (max-width:650px) {
     .sectionHeader {
