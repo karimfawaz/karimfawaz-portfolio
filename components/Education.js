@@ -1,4 +1,6 @@
+import Tilt from 'react-tilt'
 import styles from '../styles/Education.module.css'
+
 
 const Education = () => {
     return (
@@ -9,21 +11,21 @@ const Education = () => {
             </div>
 
          <div className={styles.eduDiv}>
-                <div className={styles.eduCard}>
-                    <img className={styles.eduImg} src='/images/cpf.png' />
+                <Tilt className={styles.eduCard}>
                     <div className={styles.eduDetails}>
+                    <img className={styles.eduImg} src='/images/cpf.png' />
                         <h3 className={styles.eduTitle}>
                             College Protestant Francais
                         </h3>
                         <p className={styles.eduText}>
-                        French Baccalaureate<br/>Scientific Path, Emphasis in Mathematics
+                        French Baccalaureate Scientific Path, Emphasis in Mathematics
                         </p>
                     </div>
 
-                </div>
-                <div className={styles.eduCard}>
-                    <img className={styles.eduImg} src='/images/qmul.png' />
+                </Tilt>
+                <Tilt className={styles.eduCard}>
                     <div className={styles.eduDetails}>
+                    <img className={styles.eduImg} src='/images/qmul.png' />
                         <h3 className={styles.eduTitle}>
                             Queen Mary University of London
                         </h3>
@@ -32,7 +34,7 @@ const Education = () => {
                         </p>
                     </div>
 
-                </div>
+                </Tilt>
                 
             </div>
 

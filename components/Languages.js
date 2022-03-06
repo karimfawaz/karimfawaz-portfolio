@@ -1,4 +1,5 @@
 import styles from '../styles/Languages.module.css'
+import Tilt from 'react-tilt'
 
 const Languages = () => {
     return (
@@ -9,20 +10,20 @@ const Languages = () => {
             </div>
             <div className={styles.languagesList}>
 
-            <div className={styles.language}>
+            <Tilt className={styles.language}>
                 <img className={styles.languageImg} src='/images/france.png' />
                 <h3 className={styles.languageTitle}>French</h3>
-            </div>
+            </Tilt>
             
-            <div className={styles.language}>
+            <Tilt className={styles.language}>
                 <img className={styles.languageImg} src='/images/uk.png' />
                 <h3 className={styles.languageTitle}>English</h3>
-            </div>
+            </Tilt>
             
-            <div className={styles.language}>
+            <Tilt className={styles.language}>
                 <img className={styles.languageImg} src='/images/arabic.png' />
                 <h3 className={styles.languageTitle}>Arabic</h3>
-            </div>
+            </Tilt>
             </div>
         </section>
     )

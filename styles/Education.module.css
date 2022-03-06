@@ -38,32 +38,37 @@
 
 .eduCard {
     display: flex;
+    position: relative;
     justify-content: center;
     flex-direction: column;
-    padding: .5vw;
+    align-items: center;
+    padding: .25vw;
     border-radius: 2vw;
-    
-    
-    
-   
+    background-color: white;
+    /* background:rgba(255, 255, 255, 0.1); */
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    height: 23vw;
+    width: 20vw;
+    text-align: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+
 }
 
 
 .eduImg {
     height: 10vw;
     width: 10vw;
-    border-radius: 50%;
-    align-self: center;
 }
 
-.eduDetails {
+/*.eduDetails {
     display: none;
     visibility: hidden;
     text-align: center;
     opacity: 0;
-    transition: 1s ease;
+    transition: 1s ease; */
 
-
+/* 
 }
 
 .eduCard:hover .eduDetails {
@@ -89,15 +94,16 @@
 
 .eduCard:hover .eduImg {
     transition: 1s ease;
+}*/
 
-}
-.eduTitle{
+.eduTitle {
     font-size: 1.25vw;
 }
 
-.eduText{
+.eduText {
     font-size: 1vw;
 }
+
 @media only screen and (max-width:650px) {
     .sectionHeader {
         margin-bottom: 5vw;
