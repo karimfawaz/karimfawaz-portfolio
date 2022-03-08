@@ -12,8 +12,8 @@ const Education = () => {
 
          <div className={styles.eduDiv}>
                 <Tilt className={styles.eduCard}>
-                    <div className={styles.eduDetails}>
                     <img className={styles.eduImg} src='/images/cpf.png' />
+                    <div className={styles.eduDetails}>
                         <h3 className={styles.eduTitle}>
                             College Protestant Francais
                         </h3>
@@ -24,8 +24,8 @@ const Education = () => {
 
                 </Tilt>
                 <Tilt className={styles.eduCard}>
-                    <div className={styles.eduDetails}>
                     <img className={styles.eduImg} src='/images/qmul.png' />
+                    <div className={styles.eduDetails}>
                         <h3 className={styles.eduTitle}>
                             Queen Mary University of London
                         </h3>

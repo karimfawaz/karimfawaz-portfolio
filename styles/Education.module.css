@@ -44,8 +44,7 @@
     align-items: center;
     padding: .25vw;
     border-radius: 2vw;
-    background-color: white;
-    /* background:rgba(255, 255, 255, 0.1); */
+    background:rgba(255, 255, 255, 0.1);
     border-left: 1px solid white;
     border-top: 1px solid white;
     height: 23vw;
@@ -59,21 +58,22 @@
 .eduImg {
     height: 12vw;
     width: 12vw;
+    
 }
 
-/*.eduDetails {
-    display: none;
+
+.eduDetails {
+    
     visibility: hidden;
     text-align: center;
     opacity: 0;
-    transition: 1s ease; */
+    transition: 1s ease; 
 
-/* 
+
 }
 
 .eduCard:hover .eduDetails {
     visibility: visible;
-    display: flex;
     flex-direction: column;
     transition: 1s ease;
     opacity: 1;
@@ -83,18 +83,16 @@
 
 .eduCard:hover {
     background-color: white;
-    width: 25vw;
-    height: 25vw;
+  
     transition: 1s ease;
     opacity: 1;
     visibility:visible;
-    display: flex;
-
+  
 }
 
 .eduCard:hover .eduImg {
     transition: 1s ease;
-}*/
+}
 
 .eduTitle {
     font-size: 1.25vw;
