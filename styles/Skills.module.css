@@ -1,30 +1,6 @@
 .skillSection {
     padding: 3vw;
 }
-
-.sectionHeader {
-    display: flex;
-    height: 10vw;
-    margin-bottom: 3vw;
-}
-
-.headerImg {
-    height: 7vw;
-    width: 7vw;
-    transform: rotate(90deg);
-    align-self: center;
-    justify-self: center;
-}
-
-.headerTitle {
-    font-size: 3vw;
-    color: white;
-    align-self: center;
-    justify-self: center;
-    margin-left: 1vw;
-    font-family: 'Press Start 2P', cursive;
-}
-
 .skillList {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -86,24 +62,15 @@
 }
 
 @media only screen and (max-width:650px) {
-    .sectionHeader {
-        margin-bottom: 5vw;
-    }
-    .headerImg {
-        height: 10vw;
-        width: 10vw;
-    }
-    .headerTitle {
-        font-size: 5vw;
-        margin-left: 2vw;
-    }
     .skillList {
         grid-template-columns: 1fr;
     }
+
     .skillcard {
         height: 40vw;
         width: 40vw;
     }
+
     .cardHeader {
         padding-left: 1vw;
         padding-right: 1vw;
@@ -113,14 +80,17 @@
         align-items: center;
         margin-top: 3vw;
     }
+
     .cardHeaderimg {
         height: 20vw;
         width: 20vw;
     }
+
     .cardHeadertitle {
         font-size: 3vw;
         text-align: center;
     }
+
     .cardDetails {
         position: absolute;
         height: 100%;

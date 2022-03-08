@@ -1,12 +1,11 @@
 import styles from '../styles/Links.module.css'
+import SectionHeader from './SectionHeader'
 
 const Links = () => {
     return (
         <section className={styles.linksSection}>
-            <div className={styles.sectionHeader}>
-                <img className={styles.headerImg} src='/images/links.png' />
-                <h3 className={styles.headerTitle}>Links</h3>
-            </div>
+            
+            <SectionHeader title='Links' url='/images/links.png'/>
 
             <div className={styles.linksList}>
 

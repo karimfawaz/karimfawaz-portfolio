@@ -1,11 +1,11 @@
 import styles from "../styles/Projects.module.css"
+import SectionHeader from './SectionHeader'
+
+
 const Projects = () => {
     return (
         <section className={styles.projectsSection}>
-            <div className={styles.sectionHeader}>
-                <img className={styles.headerImg} src='/images/projects.png' />
-                <h3 className={styles.headerTitle}>Projects</h3>
-            </div>
+            <SectionHeader title='Projects' url='/images/projects.png' />
 
         </section>
     )

@@ -1,12 +1,11 @@
 import styles from '../styles/Experience.module.css'
+import SectionHeader from './SectionHeader'
 
 const Experience = () => {
     return (
         <section className={styles.expSection}>
-            <div className={styles.sectionHeader}>
-                <img className={styles.headerImg} src='/images/building.png' />
-                <h3 className={styles.headerTitle}>Experience</h3>
-            </div>
+            
+            <SectionHeader title='Experience' url='/images/building.png'/>
 
             <div className={styles.expList}>
             <div className={styles.expcard}>

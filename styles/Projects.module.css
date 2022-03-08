@@ -2,39 +2,7 @@
     padding: 3vw;
 }
 
-.sectionHeader {
-    display: flex;
-    height: 10vw;
-    margin-bottom: 3vw;
-}
-
-.headerImg {
-    height: 7vw;
-    width: 7vw;
-    align-self: center;
-    justify-self: center;
-}
-
-.headerTitle {
-    font-size: 3vw;
-    color: white;
-    align-self: center;
-    justify-self: center;
-    margin-left: 1vw;
-    font-family: 'Press Start 2P', cursive;
-}
-
 
 @media only screen and (max-width:650px) {
-    .sectionHeader {
-        margin-bottom: 5vw;
-    }
-    .headerImg {
-        height: 10vw;
-        width: 10vw;
-    }
-    .headerTitle {
-        font-size: 5vw;
-        margin-left: 2vw;
-    }
+    
 }

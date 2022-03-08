@@ -1,12 +1,13 @@
 import Tilt from "react-tilt"
 import styles from "../styles/TechSkills.module.css"
+import SectionHeader from './SectionHeader'
+
+
 const TechSkills = () => {
     return (
         <section className={styles.techSection}>
-            <div className={styles.sectionHeader}>
-                <img className={styles.headerImg} src='/images/techskills.png' />
-                <h3 className={styles.headerTitle}>Technologies</h3>
-            </div>
+            <SectionHeader title='Technologies' url='/images/techskills.png'/>
+
             <div className={styles.techGrid}>
                 <Tilt className={styles.gridItem}>
                     <img className={styles.gridItemImg} src='/images/java.png'/>

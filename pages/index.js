@@ -13,6 +13,7 @@ import Languages from '../components/Languages'
 import Links from '../components/Links'
 
 import style from '../styles/Home.module.css'
+import SectionHeader from '../components/SectionHeader'
 
 
 export default function Home() {
@@ -42,7 +43,6 @@ export default function Home() {
       <Blog/>
       <Languages />
       <Links />
-
 
 
 
