@@ -1,25 +1,14 @@
 import Head from 'next/head'
 
-import Nav from '../components/Nav'
 import Header from '../components/Header'
-import About from '../components/About'
-import Education from '../components/Education'
-import Skills from '../components/Skills'
-import Experience from '../components/Experience'
-import TechSkills from '../components/TechSkills'
-import Projects from '../components/Projects'
-import Blog from '../components/Blog'
-import Languages from '../components/Languages'
-import Links from '../components/Links'
 
 import style from '../styles/Home.module.css'
-import SectionHeader from '../components/SectionHeader'
 
 
 export default function Home() {
   return (
     <div>
-      <p className={style.notice}>NOTICE: WEBSITE UNDER CONSTRUCTION!</p>
+
 
       <Head>
         <title>Karim Fawaz</title>
@@ -32,17 +21,20 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
       </Head>
-      <Header />
-      <Nav />
-      <About />
-      <Education />
-      <Skills />
-      <Experience />
-      <TechSkills/>
-      <Projects/>
-      <Blog/>
-      <Languages />
-      <Links />
+
+      <div className={style.topRow}>
+
+      </div>
+
+
+      <div className={style.middleRow}>
+        <Header />
+      </div>
+
+
+      <div className={style.bottomRow}>
+
+      </div>
 
 
 
